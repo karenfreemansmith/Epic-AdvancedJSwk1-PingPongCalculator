@@ -1,0 +1,63 @@
+body {
+  background-color: #A1D490;
+}
+
+h1 {
+  background-color: #069700;
+  color: white;
+  font-size: 8em;
+  line-height: 2;
+  text-align: center;
+  font-family: 'Monofett', cursive;
+  border-radius: 25px;
+}
+
+.about p {
+  font-weight: normal;
+  font-size: 1.15em;
+}
+
+.about a {
+  color: #900;
+}
+
+#pingpong {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #900;
+  display: none;
+}
+
+div#critters {
+  background-image: url("../img/ping-pong2.png");
+  background-size: cover;
+  height: 264px;
+  width: 522px;
+  position: relative;
+}
+
+div#critters img {
+  width: 10%;
+  position: absolute;
+  top: 10px;
+  left: 560px;
+}
+
+/* Keyframes for animations
+---------------------------------------------------- */
+@keyframes volley {
+  0% {  top: 10px; left: 120px; }
+  40% { top: 120px; left: 240px; width: 20%; }
+  50% { top: 80px; left: 280px; opacity: .5; }
+  75% { top: 40px; left: 400px; width: 10%; }
+  100% {  top: 10px; left: 560px; opacity: 1;}
+}
+@-webkit-keyframes volley {
+  0% {  top: 10px; left: 120px; }
+  40% { top: 120px; left: 240px; width: 20%; }
+  50% { top: 80px; left: 280px; opacity: .5; }
+  75% { top: 40px; left: 400px; width: 10%; }
+  100% {  top: 10px; left: 560px; opacity: 1;}
+}

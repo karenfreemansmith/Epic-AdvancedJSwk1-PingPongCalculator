@@ -30,6 +30,6 @@ Calculator.prototype.playPong = function(userNumber) {
     }
   }
   return message;
- }
+};
 
 exports.calculatorModule = Calculator;

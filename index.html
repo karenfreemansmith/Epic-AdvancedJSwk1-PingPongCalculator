@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" value="width=device-width, initial-scale=1">
+    <title>Ping Pong</title>
+    <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ping Pong</h1>
+      <div class="row">
+        <div class="col-sm-3 about">
+          <h2>About Ping Pong</h2>
+          <h3>Created by:<br>
+          <a href="https://karenfreemansmith.github.io/myportfolio" target="_blank">Karen Freeman-Smith</a></h3>
+          <p>
+            This ping-pong program was created as an individual project for week 3 of the Introduction to Programming course offered at <strong><a href="http://epicodus.com" target="_blank">Epicodus</a></strong> (the curriculum is also available online for free at <a href="http:learnhowtoprogram.com" target="_blank">learnhowtoprogram.com</a>).
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <h3>Enter a number</h3>
+          <form id="play">
+            <div class="form-group row">
+              <div class="col-sm-6">
+                <input type="number" id="userNumber" class="form-control"></input>
+              </div>
+              <div class="col-sm-6">
+                <button type="submit" class="btn btn-success form-control">Play Pong</button>
+              </div>
+            </div>
+          </form>
+          <div id="critters">
+            <img src="img/acorn2.png" alt="acorn" id="acorn">
+          </div>
+        </div>
+        <div id="pingpong" class="col-sm-3"></div>
+      </div>
+    </div>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>

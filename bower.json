@@ -1,0 +1,22 @@
+{
+  "name": "js-calculator",
+  "description": "Epicodus JavaScript week 1 project to build a calculator (including a ping-pong function) by [Karen Freeman-Smith](https://karenfreemansmith.github.io)",
+  "main": "backend.js",
+  "authors": [
+    "Karen Freeman-Smith"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/karenfreemansmith/js-calculator",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}

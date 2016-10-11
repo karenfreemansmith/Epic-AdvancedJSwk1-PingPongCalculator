@@ -40,3 +40,4 @@ build/
 # Advanced JavaScript #
 #######################
 node_modules/
+bower_components/

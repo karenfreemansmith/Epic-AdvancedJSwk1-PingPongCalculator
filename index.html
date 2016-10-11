@@ -5,7 +5,7 @@
     <meta name="viewport" value="width=device-width, initial-scale=1">
     <title>Ping Pong</title>
     <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
@@ -19,6 +19,8 @@
           <p>
             This ping-pong program was created as an individual project for week 3 of the Introduction to Programming course offered at <strong><a href="http://epicodus.com" target="_blank">Epicodus</a></strong> (the curriculum is also available online for free at <a href="http:learnhowtoprogram.com" target="_blank">learnhowtoprogram.com</a>).
           </p>
+          <h3>Current Time:</h3>
+          <h3 id='time'></h3>
           <h3>Pointless Sign-up Form</h3>
           <p id="msg"></p>
           <form id="signup">
@@ -46,8 +48,9 @@
         <div id="pingpong" class="col-sm-3"></div>
       </div>
     </div>
-  <script src="js/jquery-3.1.0.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/boostrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/moment/min/moment.min.js"></script>
   <script src="build/js/app.js"></script>
   </body>
 </html>

@@ -32,12 +32,8 @@
 ehthumbs.db
 Thumbs.db
 
-# Java and Gradle #
-###################
-build/
-.gradle/
-
 # Advanced JavaScript #
 #######################
 node_modules/
 bower_components/
+tmp/

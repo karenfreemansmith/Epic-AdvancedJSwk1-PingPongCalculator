@@ -1,7 +1,7 @@
 {
-  "name": "js-calculator",
+  "name": "Epic-AdvancedJSwk1-PingPongCalculator",
   "version": "1.0.0",
-  "description": "Epicodus JavaScript week 1 project to build a calculator (including a ping-pong function) by [Karen Freeman-Smith](https://karenfreemansmith.github.io)",
+  "description": "Epicodus Advanced JavaScript Homework Project",
   "main": "backend.js",
   "directories": {
     "test": "test"
@@ -11,15 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karenfreemansmith/js-calculator.git"
+    "url": "git+https://github.com/karenfreemansmith/Epic-AdvancedJSwk1-PingPongCalculator.git"
   },
   "author": "Karen Freeman-Smith",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karenfreemansmith/js-calculator/issues"
+    "url": "https://github.com/karenfreemansmith/Epic-AdvancedJSwk1-PingPongCalculator/issues"
   },
-  "homepage": "https://github.com/karenfreemansmith/js-calculator#readme",
+  "homepage": "https://github.com/karenfreemansmith/Epic-AdvancedJSwk1-PingPongCalculator#readme",
   "devDependencies": {
+    "bower-files": "^3.14.1",
+    "browser-sync": "^2.18.5",
     "browserify": "^13.1.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",

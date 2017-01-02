@@ -1,12 +1,12 @@
 {
-  "name": "js-calculator",
-  "description": "Epicodus JavaScript week 1 project",
+  "name": "Epic-AdvancedJSwk1-PingPongCalculator",
+  "description": "Epicodus Advanced JavaScript Homework Project",
   "main": "backend.js",
   "authors": [
     "Karen Freeman-Smith"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/karenfreemansmith/js-calculator",
+  "license": "GNU 3",
+  "homepage": "https://github.com/karenfreemansmith/Epic-AdvancedJSwk1-PingPongCalculator",
   "ignore": [
     "**/.*",
     "node_modules",

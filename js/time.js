@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $('#time').text(moment());
+  $('#time').text(moment().format('h:mm:ss a'));
 });

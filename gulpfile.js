@@ -22,7 +22,7 @@ var browserSync = require('browser-sync').create();
 var buildProduction = utilities.env.production;
 
 gulp.task('concatInterface', function() {
-  return gulp.src(['./js/frontend.js', './js/signup.js'])
+  return gulp.src(['./js/frontend.js', './js/signup.js', './js/time.js'])
     .pipe(concat('allConcat.js'))
     .pipe(gulp.dest('./tmp'));
 });
@@ -83,7 +83,7 @@ gulp.task('serve', function() {
   });
 });
 
-gulp.watch(['js/*.js'], ['jsBuild']);
+gulp.watch(['js/*.js'], ['build']);
 gulp.watch(['bower.json'], ['bowerBuild']);
 
 gulp.task('bowerBuild', ['bower'], function(){

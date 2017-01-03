@@ -2,7 +2,7 @@
 Version 0.0.2: January 3, 2017
 by [Karen Freeman-Smith](https://github.com/karenfreemansmith)
 
-![screenshot of project running](screenshot.png)
+![screenshot of project running](screenshot.jpg)
 
 ## Description
 Epicodus JavaScript week 1 project to build a calculator (including a ping-pong function).

@@ -74,7 +74,7 @@ gulp.task('bowerCSS', function() {
 
 gulp.task('bower', ['bowerJS', 'bowerCSS']);
 
-gulp.task('serve', function() {
+gulp.task('serve', ['build', 'bowerBuild'],function() {
   browserSync.init({
     server: {
       baseDir: "./",
